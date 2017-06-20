@@ -1,22 +1,17 @@
-/*
- * This is the main css file that ships with the airspace theme.
- * In airspace, it is called style.css
- * However, style.css now holds additional styles for this jekyll port. (Not written by ThemeFisher)
- * The original style.css is now called airspace.css
- * 
- */
-
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
 @import url(http://fonts.googleapis.com/css?family=Volkhov:400italic);
+@import url(http://fonts.googleapis.com/css?family=EB+Garamond);
+
+/* Check out http://fonts.greatsimple.io/cardo-pathway/ */
 /* var text-decoration */
-/*--
-	Common Css
---*/
+/* Common Css */
+
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'EB Garamond', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
+
 h1,
 h2,
 h3,
@@ -25,32 +20,35 @@ h5,
 h6 {
   font-family: 'Roboto', sans-serif;
 }
+
 h2 {
   font-size: 30px;
   font-weight: 400;
 }
+
 h3 {
   font-size: 28px;
   font-weight: 300;
 }
+
 p {
   font-size: 15px;
   line-height: 28px;
 }
+
 ul {
   padding: 0;
   margin: 0;
   list-style: none;
 }
+
 a,
 a:active,
 a:focus,
 a:active {
-  text-decoration: none !important;
-}
-.section-title {
-  margin-bottom: 70px;
-}
+  text-decoration: none !important; }
+
+.section-title { margin-bottom: 70px; }
 .section-title h2 {
   text-transform: uppercase;
   font-size: 28px;
@@ -97,11 +95,11 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider Start
 --*/
 #slider {
-  background: url("../img/slider-bg.jpg") no-repeat;
+  background: url("../img/ami-city-pier.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
-  padding: 200px 0 280px 0;
+  padding: 50px 0 280px 0;
   position: relative;
 }
 #slider:before {
@@ -113,7 +111,7 @@ font header .navbar-default .navbar-nav li a:hover {
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #8b86a3, #322e40);
+  background: linear-gradient(to left, #b8fdff, #007791);
   opacity: 0.8;
 }
 #slider .block {
@@ -126,6 +124,7 @@ font header .navbar-default .navbar-nav li a:hover {
   line-height: 60px;
   letter-spacing: 10px;
   padding-bottom: 45px;
+  text-align: center;
 }
 #slider .block p {
   font-size: 23px;
@@ -133,6 +132,7 @@ font header .navbar-default .navbar-nav li a:hover {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
+  text-align: center;
 }
 /*--
 	wrapper Start
@@ -358,7 +358,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider-work Start
 --*/
 #global-header {
-  background: url("../img/slider-bg.jpg") no-repeat;
+  background: url("../img/ami-city-pier.jpg") no-repeat;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 107px;
@@ -607,7 +607,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	slider-contact Start
 --*/
 #slider-contact {
-  background: url("../img/slider-bg.jpg") no-repeat;
+  background: url("../img/ami-city-pier.jpg") no-repeat;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 107px;
